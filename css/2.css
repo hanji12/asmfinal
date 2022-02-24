@@ -1,0 +1,104 @@
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  padding: 0;margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+
+h2{
+  color: white;
+}
+
+.one{
+      width: 25%;
+      float: left;
+    }
+    .khungngoai{
+      border-radius: 10px;
+      box-shadow: 0 0 2px lightgray;
+      margin: 10px;
+      padding: 10px;
+      text-align: center;
+      position: relative;
+    }
+    .khungngoai:hover{
+      box-shadow:inset 0 0 8px lightgray;
+
+    }
+    .khungngoai>.ten{
+      color:rgb(17,36,66);  
+      font-weight: bold;
+      font-size: 15px;
+          }
+    .khungngoai>.anh{
+      max-width: 98%;
+      height: 250px;
+      margin-bottom: 30px;
+      padding: 15px;
+    }
+    .khungngoai>.gia{
+      position: absolute;
+      left: 5px;
+      bottom: 15px;
+      font-size: 25px;
+      color: rgb(216,181,109);
+    }
+  
+    .khungngoai>.muahang{
+      color: black;
+      position: absolute;
+      right: 5px;
+      bottom: 5px;
+      text-decoration: none;
+      box-shadow: 0 0 1px blue;
+      border-radius: 2px 2px;
+      font-weight: bold;
+      padding: 2px;
+    }
+    .khungngoai>.muahang:hover{
+      border-radius: 4px 4px;
+      font-weight: bold;
+      padding: 4px;
+    }
+    .ft{
+      bottom: 0;
+    border-top: 5px double #F1AF00;
+    background-color: rgb(17,36,66);
+    line-height: 50px;
+    text-align: center;
+    font-weight: bolder;
+    clear: both;
+    position: relative;
+    height: 100px;
+}
+.bt{
+  background-color: rgb(17,36,66);
+color: rgb(216,181,109);
+
+}
+.ft-rt{
+  width: 20%;
+  
+  float: right;
+  
+}
+.ft-lt{
+  
+}
+.ct{
+  background-color: white;
+}
+.cn{
+  text-align: center;
+  width: 95%;
+
+}
+.ft-rt>a{
+ color: rgb(216,181,109);
+}
